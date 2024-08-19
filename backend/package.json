@@ -1,0 +1,33 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "mern project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rishabh2140/BookStore.git"
+  },
+  "author": "Rishabh Chandrakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rishabh2140/BookStore/issues"
+  },
+  "homepage": "https://github.com/Rishabh2140/BookStore#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4",
+    "validator": "^13.12.0"
+  },
+  "keywords": []
+}

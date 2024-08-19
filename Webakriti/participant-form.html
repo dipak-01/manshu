@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participant Details - Hackathon 2024</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <link rel="icon" href="/path/to/your/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">IIITM Hackathon 2024</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="details.html">Details</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <!-- <li><a href="editor.html">Code Editor</a></li> -->
+                <li><a href="about.html">About</a></li>
+                <li><a href="rules.html">Rules & Regulations</a></li>
+                <li><a href="prizepool.html">Prize Pool</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="participant" class="participant">
+        <h2>Participant Details</h2>
+        <form id="participant-form">
+            <div class="participant-details">
+                <h3>Participant 1</h3>
+                <label for="participant1-name">Name:</label>
+                <input type="text" id="participant1-name" name="participant1-name" required>
+                <label for="participant1-college">College ID:</label>
+                <input type="text" id="participant1-college" name="participant1-college" required>
+            </div>
+            <div class="participant-details">
+                <h3>Participant 2</h3>
+                <label for="participant2-name">Name:</label>
+                <input type="text" id="participant2-name" name="participant2-name" required>
+                <label for="participant2-college">College ID:</label>
+                <input type="text" id="participant2-college" name="participant2-college" required>
+            </div>
+            <div class="participant-details">
+                <h3>Participant 3</h3>
+                <label for="participant3-name">Name:</label>
+                <input type="text" id="participant3-name" name="participant3-name" required>
+                <label for="participant3-college">College ID:</label>
+                <input type="text" id="participant3-college" name="participant3-college" required>
+            </div>
+            <button type="submit">Submit Details</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hackathon 2024. All rights reserved.</p>
+    </footer>
+    <script src="participant-form.js"></script>
+    <script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function () {
+    emailjs.init({
+      publicKey: 'iuiuViLHrLUU5i6ka',
+    });
+  })();
+</script>
+</body>
+</html>
